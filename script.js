@@ -40,12 +40,12 @@ noBtn.addEventListener("click", () => {
 });
 
 function resizeYesButton() {
-  yesButtonSize *= 99;
+  yesButtonSize *= 1.2;
   yesBtn.style.transform = `scale(${yesButtonSize})`;
 }
 
 function shrinkNoButton() {
-  noButtonSize *= 0.10;
+  noButtonSize *= 0.90;
   noBtn.style.transform = `scale(${noButtonSize})`;
 }
 
